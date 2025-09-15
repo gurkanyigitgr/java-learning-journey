@@ -17,5 +17,12 @@ public class MultidimentionalArray {
             }
             System.out.println();
         }
+        System.out.println("----------");
+        for(int[] row : table) {
+            for(int col  : row){
+                System.out.print(col + " ");
+            }
+            System.out.println();
+        }
     }
 }
